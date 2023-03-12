@@ -10434,7 +10434,7 @@ Primary style
   display: block;
 }
 .logo a img {
-  max-height: 50px;
+  max-height: 36px;
   object-fit: cover;
 }
 
@@ -11786,7 +11786,7 @@ ul.rbt-dropdown-menu.currency-menu li .sub-menu {
   z-index: 99;
 }
 .rbt-header .logo a img {
-  max-height: 50px;
+  max-height: 32px;
   object-fit: cover;
 }
 @media only screen and (max-width: 575px) {
@@ -16560,7 +16560,7 @@ span.transparent-button:hover i {
 }
 .rbt-accordion-style .card .card-header button::before {
   position: absolute;
-  content: "\e996";
+  content: "\f054";
   font-family: "Font Awesome Kit";
   right: -18px;
   top: 50%;
@@ -16571,7 +16571,7 @@ span.transparent-button:hover i {
   color: var(--color-heading);
 }
 .rbt-accordion-style .card .card-header button.collapsed::before {
-  content: "\e9b1";
+  content: "\f078";
 }
 .rbt-accordion-style .card .card-body {
   border-top: 1px solid var(--white-opacity);
@@ -18534,7 +18534,7 @@ span.transparent-button:hover i {
   opacity: 0;
 }
 .rbt-team-modal-thumb .rbt-team-thumbnail .thumb::before {
-  content: "\e94b";
+  content: "\f061";
   position: absolute;
   font-family: "Font Awesome Kit";
   top: 50%;
@@ -26328,7 +26328,7 @@ Course Sidebar
   height: 80px;
 }
 .rbt-show-more-btn::after {
-  content: "\e92e";
+  content: "\f0da";
   position: absolute;
   font-family: "Font Awesome Kit";
   right: 0;
@@ -26689,10 +26689,13 @@ Course Sidebar
   top: 50%;
   transform: translateY(-50%);
   font-family: "Font Awesome Kit";
+    -webkit-font-smoothing: antialiased;
 }
-.footer-style-1 .newsletter-form .right-icon.icon-email::after {
-  content: "\e98a";
-}
+/* .footer-style-1 .newsletter-form .right-icon.icon-email::after {
+  content: "\f1d8";
+  font-family: "Font Awesome Kit";
+  -webkit-font-smoothing: antialiased;
+} */
 
 .footer-widget .ft-link li {
   margin: 0;
